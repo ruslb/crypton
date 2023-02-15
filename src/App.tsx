@@ -4,6 +4,7 @@ import LoginPage from './components/auth/login';
 import Home from './components/home';
 import PrivateRoute from './utils/router/privateRoute'; 
 
+
 function App() {
   return (
     <div className="App">
