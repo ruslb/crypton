@@ -14,12 +14,12 @@ export interface IPropsRegister {
 }
 
 export interface IAuthState {
-	user: IPublicUser,
+	user: {},
 	isLogged: boolean
 }
 
 interface IPublicUser {
-	id: number | null,
+	id: number,
 	firstName: string,
 	username: string,
 	email: string,
@@ -29,10 +29,10 @@ interface IPublicUser {
 }
 
 interface IWatchlist {
-	id: number | null,
+	id: number,
 	name: string,
 	assetId: string,
 	createdAt: string,
 	updatedAt: string,
-	user: number | null
+	user: number
 }
